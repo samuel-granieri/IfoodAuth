@@ -25,5 +25,16 @@ namespace IfoodAuth.Controllers
             });
         }
 
+        [HttpGet("teste")]
+
+        public IActionResult Teste()
+        {
+
+            return Ok(new
+            {
+                message = "Teste ok!"
+            });
+        }
+
     }
 }
